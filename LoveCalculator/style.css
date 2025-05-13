@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("love.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container {
+  background: #fff0f6;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(255, 105, 135, 0.4);
+  max-width: 400px;
+  width: 100%;
+  color: #880e4f;
+}
+
+.container h2 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+  color: #d81b60;
+}
+
+.container p {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+input {
+  height: 2.5rem;
+  width: 100%;
+  border: 1px solid #ec407a;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 0.75rem;
+  font-size: 1rem;
+  color: #6a1b9a;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #d81b60;
+}
+
+button {
+  background-color: #f06292;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ab47bc;
+}
+
+#result {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #880e4f;
+}
+
+#percent {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4a148c;
+}
+
+/* Tablet and below */
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  .container h2 {
+    font-size: 1.6rem;
+  }
+
+  input {
+    font-size: 0.95rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  #result,
+  #percent {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .overlay {
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 1.2rem;
+  }
+
+  .container h2 {
+    font-size: 1.4rem;
+  }
+
+  .container p {
+    font-size: 0.95rem;
+  }
+
+  input {
+    height: 2.2rem;
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+
+  #result,
+  #percent {
+    font-size: 1rem;
+  }
+}

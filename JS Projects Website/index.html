@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Projects Website</title>
+  <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- font awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+  <!-- Own CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <header>
+    <nav class="navbar navbar-expand-lg px-4 fixed-top" style="background-color:navy;">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#"><i class="fa-brands fa-js text-warning"></i> Projects</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center ">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#work">Projects</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-light border-0 p-0" style="font-weight:bold;
+              color:navy;"> <a class="nav-link" href="#">Contact
+                  Us</a></button>
+            </li>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home-section py-5 text-center" id="home">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-12 py-5" data-aos="fade-up" data-aos-offset="200">
+        <h1>Welcome to <br> JavaScript <br>Projects</h1>
+        <span id="element" style="font-size:1.2em;color:rgb(250, 119, 12);"></span>
+        <br>
+        <br>
+        <a href="#work"><button class="btn rounded-pill px-4" style="background-color:rgb(3, 3, 206);color:white;">Get
+            Started <i class="fa-solid fa-circle-arrow-right"></i></button></a>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-12 d-flex justify-content-center align-items-center py-5"
+        data-aos="zoom-in" data-aos-offset="200">
+        <img src="images/js.jpg" width="300" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section class="work-section p-5 text-center" id="work" style="background-color:rgb(218, 214, 214);">
+    <h2 class="py-3">Overview of <span style="color:navy;">Projects</span> Made Using JavaScript</h2>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-12 col-md-2 col-lg-2 col-12 py-2 d-flex justify-content-center" data-aos="fade-up"
+        data-aos-offset="200">
+        <div>
+          <img src="images/digital.png">
+          <h6>Digital Clock</h2>
+            <a href="Digital Clock\index.html">View</a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-2 col-lg-2 col-12 py-2 d-flex justify-content-center" data-aos="fade-up"
+        data-aos-offset="200">
+        <div>
+          <img src="images/todo.png">
+          <h6>Todo List</h2>
+            <a href="TODOList\index.html">View</a>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-12 col-md-2 col-lg-2 col-12 py-2 d-flex justify-content-center" data-aos="fade-up"
+        data-aos-offset="200">
+        <div>
+          <img src="images/percentage.png">
+          <h6>Percentage Calculator</h2>
+            <a href="Percentage Calculator\index.html">View</a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-2 col-lg-2 col-12 py-2 d-flex justify-content-center" data-aos="fade-up"
+        data-aos-offset="200">
+        <div>
+          <img src="images/love.png">
+          <h6>Love Calculator</h2>
+            <a href="LoveCalculator\index.html">View</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-12 col-md-2 col-lg-2 col-12 py-2 d-flex justify-content-center" data-aos="fade-up"
+        data-aos-offset="200">
+        <div>
+          <img src="images/rockpaperscissors.png">
+          <h6>Rock Paper Scissors</h2>
+            <a href="Rock Paper Scissors copy\index.html">View</a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-2 col-lg-2 col-12 py-2 d-flex justify-content-center" data-aos="fade-up"
+        data-aos-offset="200">
+        <div>
+          <img src="images/tictactoe.png">
+          <h6>Tic Tac Toe</h2>
+            <a href="Tic Tac Toe Game\index.html">View</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section class="footer-section text-center p-2" style="background-color:rgb(2, 2, 34);color:rgb(196, 195, 195);">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+      <p>Copyright &copy; 2024 All Rights Reserved | <br>JavaScript Projects</p>
+      <p>Made With <i class="fa-solid fa-heart" style="color:red;"></i> By <span style="color:rgb(0, 89, 255);">Mohd
+          Aftab</span></p>
+    </div>
+  </section>
+  <!-- Type.js CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Bui ld a Rock Paper Scissor Game.', ' Build a Tic Tac Toe Game.', 'Build a Digital Clock.', 'Build a JavaScript ToDo List.', 'Build a JavaScript Love Calculator.', 'Build a JavaScript Percentage Calculator.', "So Let's Get Started!"],
+      typeSpeed: 50,
+    });
+  </script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

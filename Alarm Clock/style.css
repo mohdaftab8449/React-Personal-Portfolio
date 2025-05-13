@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row .col-sm-8 {
+  border: 1px solid rgb(219, 216, 216);
+  box-shadow: 0px 0px 10px rgb(148, 146, 146);
+}
+
+.row .col-sm-8 .dropdowns {
+  display: flex;
+  justify-content: space-around;
+}
+
+select {
+  height: 40px;
+  width: 60px;
+}
+
+.dark {
+  color: white;
+}
+
+.all-alarm-list {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+}
+
+.all-alarm-list li {
+  display: flex;
+  gap: 10px;
+  box-shadow: 0px 0px 5px rgb(184, 182, 182);
+  padding: 10px;
+  position: relative;
+  left: -30px;
+}
+
+.trash {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For Tablets (768px to 1024px) */
+@media (max-width: 1024px) {
+  .row {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .col-sm-8 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .dropdowns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .all-alarm-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .all-alarm-list li {
+    left: 0;
+  }
+}
+
+/* For Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .row {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .col-sm-8 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .dropdowns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .all-alarm-list {
+    gap: 10px;
+  }
+
+  .all-alarm-list li {
+    width: 100%;
+    left: 0;
+  }
+
+  .trash {
+    right: 5px;
+  }
+
+  /* Fix for Navbar */
+  .navbar-collapse {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-left: auto;
+  }
+
+  .navbar-nav .nav-item {
+    margin-top: 10px;
+  }
+}
+
+/* For Very Small Screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .row {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .col-sm-8 {
+    width: 100%;
+  }
+
+  .dropdowns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  select {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .all-alarm-list {
+    gap: 8px;
+  }
+
+  .all-alarm-list li {
+    left: 0;
+  }
+
+  .trash {
+    right: 5px;
+  }
+
+  /* Fix for Navbar */
+  .navbar-collapse {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-left: auto;
+  }
+
+  .navbar-nav .nav-item {
+    margin-top: 10px;
+  }
+}
