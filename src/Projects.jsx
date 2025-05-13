@@ -7,7 +7,7 @@ const projects = [
     name: "Simple Calculator",
     icon: <FaCalculator className="inline-block mr-2 text-blue-400" />,
     description: "A basic calculator app to perform arithmetic operations.",
-    link: "Calculator/index.html",
+    link: "https://simple-calculator-five-khaki.vercel.app/",
   },
   {
     name: "Love Calculator",
