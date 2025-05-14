@@ -7,13 +7,13 @@ import { motion } from 'framer-motion'; // Import motion for animations
 
 const certifications = [
     { name: "C Programming", icon: FaCuttlefish, link: "/GLCCertificate.pdf" },
-    { name: "C++ Programming", icon: FaCode, link: "src/Aftab Certificates/GL C++ Certificate.pdf" },
-    { name: "Java Programming", icon: FaJava, link: "src/Aftab Certificates/GL Java Certificate.pdf" },
-    { name: "Python Programming", icon: FaPython, link: "src/Aftab Certificates/GL Python Certificate.pdf" },
-    { name: "MySQL", icon: FaDatabase, link: "src/Aftab Certificates/GL SQL Certificate.pdf" },
-    { name: "HTML", icon: FaHtml5, link: "src/Aftab Certificates/GL HTML Certificate.pdf" },
-    { name: "CSS", icon: FaCss3Alt, link: "src/Aftab Certificates/GL CSS Certificate.pdf" },
-    { name: "JavaScript", icon: FaJs, link: "src/Aftab Certificates/GL JS Certificate.pdf" }
+    { name: "C++ Programming", icon: FaCode, link: "/GLC++Certificate.pdf" },
+    { name: "Java Programming", icon: FaJava, link: "/GLJavaCertificate.pdf" },
+    { name: "Python Programming", icon: FaPython, link: "/GLPythonCertificate.pdf" },
+    { name: "MySQL", icon: FaDatabase, link: "/GLSQLCertificate.pdf" },
+    { name: "HTML", icon: FaHtml5, link: "/GLHTMLCertificate.pdf" },
+    { name: "CSS", icon: FaCss3Alt, link: "/GLCSSCertificate.pdf" },
+    { name: "JavaScript", icon: FaJs, link: "/GLJSCertificate.pdf" }
 ];
 
 const Certifications = () => {
