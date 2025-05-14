@@ -35,9 +35,11 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.4 }}
           className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
         >
+         <a href="#about">
           <button className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition duration-300 text-sm sm:text-base">
             About Me
           </button>
+         </a>
          <a href="/MohdAftabResume.pdf" download>
             <button className="px-6 py-3 border border-blue-400 hover:bg-blue-400/10 text-white rounded-full transition duration-300 text-sm sm:text-base">
               Download CV
