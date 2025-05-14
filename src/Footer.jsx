@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center gap-4 mb-4">
           {[
             { icon: <FaGithub size={16} />, href: 'https://github.com/mohdaftab8449', label: 'GitHub' },
-            { icon: <FaLinkedin size={16} />, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
+            { icon: <FaLinkedin size={16} />, href: 'https://www.linkedin.com/in/mohd-aftab-6a6496277/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BNITUEc%2B0RvqDet4%2Fk9Td3A%3D%3D', label: 'LinkedIn' },
             { icon: <FaTwitter size={16} />, href: 'https://twitter.com/yourusername', label: 'Twitter' },
             { icon: <FaFacebook size={16} />, href: 'https://www.facebook.com/profile.php?id=100052423344254', label: 'Facebook' }
           ].map(({ icon, href, label }, i) => (
