@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import TypingTitle from './TypingTitle';
-
+import htmlImage from './assets/html.png';
 const Hero = () => {
   return (
     <section 
@@ -55,7 +55,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <img
-            src="./assets/aftab.jpg"
+            src={htmlImage}
             alt="Aftab"
             className="w-full h-full object-cover rounded-full border-4 border-blue-500 shadow-lg hover:scale-105 transition duration-300"
           />
