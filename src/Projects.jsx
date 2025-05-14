@@ -13,49 +13,49 @@ const projects = [
     name: "Love Calculator",
     icon: <FaHeart className="inline-block mr-2 text-pink-500" />,
     description: "A fun love percentage calculator using names.",
-    link: "LoveCalculator/index.html",
+    link: "https://love-calculator2.vercel.app/",
   },
   {
     name: "Marks Calculator",
     icon: <FaGraduationCap className="inline-block mr-2 text-green-400" />,
     description: "Calculates total marks, percentage, and grade from subject scores.",
-    link: "Marks Calculator/index.html",
+    link: "https://marks-calculator-taupe.vercel.app/",
   },
   {
     name: "Stopwatch",
     icon: <FaStopwatch className="inline-block mr-2 text-yellow-400" />,
     description: "A responsive digital stopwatch with start, stop and reset features.",
-    link: "StopWatch/index.html",
+    link: "https://stop-watch-eight-weld.vercel.app/",
   },
   {
     name: "To-Do List",
     icon: <FaTasks className="inline-block mr-2 text-purple-400" />,
     description: "Manage your daily tasks with this interactive to-do list app.",
-    link: "TODOList/index.html",
+    link: "https://todo-list2-eight.vercel.app/",
   },
   {
     name: "Real-Time Character Counter",
     icon: <FaKeyboard className="inline-block mr-2 text-orange-400" />,
     description: "Live character counter for text input with limit alert.",
-    link: "RealTimeCharacterCounter/index.html",
+    link: "https://real-time-character-counter-lime.vercel.app/",
   },
   {
     name: "Alarm Clock",
     icon: <FaClock className="inline-block mr-2 text-red-400" />,
     description: "Set alarms and view the real-time digital clock.",
-    link: "Alarm Clock/index.html",
+    link: "https://alarm-clock2.vercel.app/",
   },
   {
     name: "Tic Tac Toe Game",
     icon: <FaGamepad className="inline-block mr-2 text-indigo-400" />,
     description: "Classic Tic Tac Toe game with interactive UI and logic.",
-    link: "Tic Tac Toe Game/index.html",
+    link: "https://tic-tac-toe-five-gules-63.vercel.app/",
   },
   {
     name: "Rock Paper Scissors",
     icon: <FaHandRock className="inline-block mr-2 text-teal-400" />,
     description: "A fun Rock-Paper-Scissors game to play against the computer.",
-    link: "Rock Paper Scissors/index.html",
+    link: "https://rock-paper-scissors-game-sand-nine.vercel.app/",
   }
 ];
 
