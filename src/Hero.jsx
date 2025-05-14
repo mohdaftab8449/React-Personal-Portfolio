@@ -38,9 +38,11 @@ const Hero = () => {
           <button className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition duration-300 text-sm sm:text-base">
             About Me
           </button>
-          <button className="px-6 py-3 border border-blue-400 hover:bg-blue-400/10 text-white rounded-full transition duration-300 text-sm sm:text-base">
-            Download CV
-          </button>
+         <a href="public/MohdAftabResume.pdf" download>
+            <button className="px-6 py-3 border border-blue-400 hover:bg-blue-400/10 text-white rounded-full transition duration-300 text-sm sm:text-base">
+              Download CV
+            </button>
+          </a>
         </motion.div>
       </div>
 
