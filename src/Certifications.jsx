@@ -6,7 +6,7 @@ import {
 import { motion } from 'framer-motion'; // Import motion for animations
 
 const certifications = [
-    { name: "C Programming", icon: FaCuttlefish, link: "GL C Certificate.pdf" },
+    { name: "C Programming", icon: FaCuttlefish, link: "https://github.com/mohdaftab8449/Aftab-Certifications/commits?author=mohdaftab8449" },
     { name: "C++ Programming", icon: FaCode, link: "src/Aftab Certificates/GL C++ Certificate.pdf" },
     { name: "Java Programming", icon: FaJava, link: "src/Aftab Certificates/GL Java Certificate.pdf" },
     { name: "Python Programming", icon: FaPython, link: "src/Aftab Certificates/GL Python Certificate.pdf" },
