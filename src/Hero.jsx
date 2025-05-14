@@ -55,7 +55,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <img
-            src="src/assets/aftab.jpg"
+            src="./assets/aftab.jpg"
             alt="Aftab"
             className="w-full h-full object-cover rounded-full border-4 border-blue-500 shadow-lg hover:scale-105 transition duration-300"
           />
