@@ -108,7 +108,7 @@ const Projects = () => {
               This website showcases several fun and interactive JavaScript projects I've created, including a Rock-Paper-Scissors game, Calculator, Tic Tac Toe, Digital Clock, and a Love Calculator.
             </p>
             <a
-              href="JS Projects Website/index.html"
+              href="https://mohdaftab8449.github.io/JavaScript-Projects-Website/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-auto px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-md text-base font-semibold text-center w-full"
