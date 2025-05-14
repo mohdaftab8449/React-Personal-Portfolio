@@ -16,10 +16,10 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex flex-wrap justify-center gap-4 mb-4">
           {[
-            { icon: <FaGithub size={16} />, href: 'https://github.com/yourusername', label: 'GitHub' },
+            { icon: <FaGithub size={16} />, href: 'https://github.com/mohdaftab8449', label: 'GitHub' },
             { icon: <FaLinkedin size={16} />, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
             { icon: <FaTwitter size={16} />, href: 'https://twitter.com/yourusername', label: 'Twitter' },
-            { icon: <FaFacebook size={16} />, href: 'https://facebook.com/yourusername', label: 'Facebook' }
+            { icon: <FaFacebook size={16} />, href: 'https://www.facebook.com/profile.php?id=100052423344254', label: 'Facebook' }
           ].map(({ icon, href, label }, i) => (
             <a
               key={i}
