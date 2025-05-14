@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import TypingTitle from './TypingTitle';
-import htmlImage from './assets/html.png';
+import htmlImage from './assets/aftab.jpg';
 const Hero = () => {
   return (
     <section 
